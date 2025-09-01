@@ -1,0 +1,40 @@
+--Disabled becuase it remove the Ex commands from the vim
+return {}
+--return {
+--    'nvim-tree/nvim-tree.lua',
+--    dependencies = {'nvim-tree/nvim-web-devicons'},
+--    config = function()
+--        -- disable netrw at the very start of your init.lua
+--        vim.g.loaded_netrw = 0
+--        vim.g.loaded_netrwPlugin = 0
+--
+--        vim.opt.termguicolors = true
+--        -- Loading the nvim tree
+--        require("nvim-tree").setup({
+--            sort = {
+--                sorter = "case_sensitive",
+--            },
+--            view = {
+--                width = 30,
+--            },
+--            renderer = {
+--                group_empty = true,
+--            },
+--            filters = {
+--                dotfiles = true,
+--            },
+--        })
+--
+--        --keybindings
+--        local nvimtree =require "nvim-tree.api"
+--
+--        vim.keymap.set('n','<leader>b',function () nvimtree.tree.toggle() end)
+--        vim.keymap.set('n','<leader>ts',function () nvimtree.tree.find_file() end)
+--        vim.keymap.set('n','<leader>tf',function () nvimtree.tree.open() end)
+--        -- when tree is open then you can use keys to search create and delete a file
+--        -- find - f
+--        -- create - a
+--        -- delete - d
+--    end
+--}
+--
