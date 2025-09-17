@@ -61,7 +61,7 @@ bindkey '^e' edit-command-line
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
-[ -f "$HOME/.config/environmentVariablesrc" ] && source "$HOME/.config/environmentVariablesrc"
+[ -f "$HOME/.config/environmentVariablesSrc" ] && source "$HOME/.config/environmentVariablesSrc"
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

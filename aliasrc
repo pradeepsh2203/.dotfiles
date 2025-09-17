@@ -37,14 +37,14 @@ alias vim="nvim"
 alias vi="nvim"
 
 # cat
-alias cat="batcat --theme=TwoDark"
+alias cat="bat --theme=TwoDark"
 
-# Changing ls commands to exa
-alias ls='exa -al --color=always --group-directories-first'
-alias la='exa -a --color=always --group-directories-first'
-alias ll='exa -l --color=always --group-directories-first'
-alias lt='exa -aT --color=always --group-directories-first' 	# Tree view
-alias l.='exa -a --color=always | egrep "^\."' 			# listing only dot files
+# Changing ls commands to lsd
+alias ls='lsd -al --color=always --group-directories-first'
+alias la='lsd -a --color=always --group-directories-first'
+alias ll='lsd -l --color=always --group-directories-first'
+alias lt='lsd -aT --color=always --group-directories-first' 	# Tree view
+alias l.='lsd -a --color=always | egrep "^\."' 			# listing only dot files
 
 # Colorize grep output
 alias grep='grep --color=auto'
