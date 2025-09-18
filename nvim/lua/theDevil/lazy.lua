@@ -10,11 +10,15 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   })
 end
 vim.opt.rtp:prepend(lazypath)
-require("lazy").setup({
-    spec = "theDevil.plugins",
-    change_detection = {notify = false}}
-)
 
+
+require("lazy").setup({
+    spec = {
+        { import = "theDevil.plugins" },
+    },
+    install = { colorscheme = { "habamax" } },
+    checker = { enabled = true },
+})
 --[[ require("lazy").setup({
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.6',
