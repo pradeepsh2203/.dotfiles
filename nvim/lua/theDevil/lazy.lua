@@ -16,9 +16,12 @@ require("lazy").setup({
     spec = {
         { import = "theDevil.plugins" },
     },
-    install = { colorscheme = { "habamax" } },
-    checker = { enabled = true },
+    checker = { 
+        enabled = true,
+        frequency = 604800, -- check for updates once every week
+    },
 })
+
 --[[ require("lazy").setup({
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.6',
