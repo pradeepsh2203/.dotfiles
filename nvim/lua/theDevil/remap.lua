@@ -20,3 +20,4 @@ vim.keymap.set("x","p","\"_dP")
 
 -- close buffer 
 vim.keymap.set("n","<leader>q","<cmd>bd<CR>")
+

@@ -29,3 +29,8 @@ vim.opt.updatetime = 50
 --vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+vim.opt.wrap = true
+vim.opt.nocompatible = true
+vim.opt.syntax = "on"
+vim.opt.filetype = "plugin"
